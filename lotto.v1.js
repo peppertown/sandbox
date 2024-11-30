@@ -26,8 +26,8 @@ const getNumbers = () => {
     console.log("--------------- 남은 번호 목록 --------------");
     console.log(numbers);
     console.log("-------------------------------------------");
-    winningNumbers = drawNumbers(numbers);
-  } else winningNumbers = drawNumbers(numbers);
+  }
+  winningNumbers = drawNumbers(numbers);
 
   winningNumbers = Array.from(winningNumbers).sort((a, b) => a - b);
   console.log(`
